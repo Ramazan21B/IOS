@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         } catch {
             print("unable to report \(error)")
         }
+        
         textfield.text = ""
         textfield2.text = ""
         textfield3.text = ""
